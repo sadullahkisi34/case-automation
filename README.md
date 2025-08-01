@@ -1,4 +1,4 @@
-# 🧪 Insider.com QA Test Automation Project (Playwright + TypeScript)
+# Insider.com QA Test Automation Project (Playwright + TypeScript)
 
 Bu proje, [https://useinsider.com](https://useinsider.com) web sitesine yönelik UI testlerini otomatikleştirmek için **Playwright** ve **TypeScript** kullanılarak geliştirilmiştir. Testler, POM (Page Object Model) yapısına göre yapılmıştır.
 ---
