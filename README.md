@@ -3,7 +3,7 @@
 Bu proje, [https://useinsider.com](https://useinsider.com) web sitesine yönelik UI testlerini otomatikleştirmek için **Playwright** ve **TypeScript** kullanılarak geliştirilmiştir. Testler, POM (Page Object Model) yapısına göre yapılmıştır.
 ---
 
-## Proje Kapsamı
+#Proje Kapsamı
 
 Toplam 5 test senaryosu aşağıdaki gereksinimleri kapsar:
 
@@ -15,7 +15,7 @@ Toplam 5 test senaryosu aşağıdaki gereksinimleri kapsar:
 
 ---
 
-## Gereksinimler
+#Gereksinimler
 
 Aşağıdaki bileşenlerin sisteminizde kurulu olması gerekir:
 
@@ -24,7 +24,7 @@ Aşağıdaki bileşenlerin sisteminizde kurulu olması gerekir:
 
 ---
 
-## Kurulum
+# Kurulum
 
 # 1. Projeyi klonla
 git clone https://github.com/sadullahkisi34/case-automation.git
@@ -39,7 +39,7 @@ npx playwright install
 
 ---
 
-## ▶️ Testleri Çalıştırmak
+#Testleri Çalıştırmak
 
 Tüm testleri çalıştırmak için: npx playwright test
 
@@ -47,7 +47,7 @@ Belirli bir testi çalıştırmak için: npx playwright test tests/insider.spec.
 
 ---
 
-## Tarayıcı Parametrizasyonu
+#Tarayıcı Parametrizasyonu
 
 Testler otomatik olarak hem **Chrome (chromium)** hem **Firefox** üzerinde koşacak şekilde yapılandırılmıştır.  
 Konfigürasyon 'playwright.config.ts' dosyasında tanımlıdır.
@@ -59,7 +59,7 @@ npx playwright test --project=firefox
 
 ---
 
-## Test Hatalarında Screenshot Alınması
+#Test Hatalarında Screenshot Alınması
 
 Testlerden biri fail olursa:
 
@@ -70,7 +70,7 @@ Testlerden biri fail olursa:
 
 ---
 
-## HTML Raporu Oluşturmak
+#HTML Raporu Oluşturmak
 
 # Testleri çalıştır
 npx playwright test
@@ -82,7 +82,7 @@ npx playwright show-report
 
 ---
 
-## 📁 Proje Yapısı
+#Proje Yapısı
 
 CASE-AUTOMATION/
 │
@@ -111,7 +111,7 @@ CASE-AUTOMATION/
 
 ---
 
-## Ekstra
+#Ekstra
 
 - Kodlar TypeScript ile yazılmıştır.
 - Hatalı adımlar için ekran görüntüsü desteği vardır.
@@ -119,7 +119,7 @@ CASE-AUTOMATION/
 
 ---
 
-## 👤 Geliştirici
+#Geliştirici
 
 Sadullah Kişi  
 📧 [GitHub](https://github.com/sadullahkisi34/)
